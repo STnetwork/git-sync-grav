@@ -22,6 +22,18 @@ facebookenable: true
 
 # <a href="/linux/centos" class="nav-button transform"><span></span></a>SoftEther VPN on a CentOS 7 VPS Using Local Bridge + DNSmasq (DHCP) + CSF Firewall
 
+---
+
+<nav class="breadcrumb is-medium" aria-label="breadcrumbs">
+  <ul>
+    <li><a href="/"><span class="icon is-small"><i class="fa fa-home"></i></span>Home<span></span></a></li>
+    <li><a href="/linux"><span class="icon is-small"><i class="fa fa-linux"></i></span><span>Linux</span></a></li>
+    <li><a href="/linux/centos"></i></span><span>CentOS</span></a></li>
+    <li><a href="#"></i></span><span>SoftEther VPN on a CentOS 7 VPS Using Local Bridge + DNSmasq (DHCP) + CSF Firewall</span></a></li>
+  </ul>
+</nav>
+
+---
 
 ## Introduction.
 
