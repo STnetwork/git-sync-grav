@@ -53,13 +53,8 @@ facebookenable: true
 ---
 
 <div>
-<b-panel collapsible  :open.sync="isOpen">
+<b-panel collapsible>
     <strong slot="header">Articles Network</strong>
-	<a class="card-header-icon">
-                    <b-icon :icon="isOpen ?
-                        'menu-down' : 'menu-up'">
-                    </b-icon>
-    </a>
     <div class="content">
 					<ul>
 					{% for post in page.find('/network/foundations-of-networking-networking-basics/1-network-topologies').children.order('date', 'desc').slice(0, 10) %}
@@ -81,15 +76,5 @@ facebookenable: true
     </div>
 </b-panel>
 </div>
-
-{assets:inline_js}
-    export default {
-        data() {
-            return {
-                isOpen: true
-            }
-        }
-    }
-{/assets}
 
 <!--    --------------------------------------------------------------------------                           -->
