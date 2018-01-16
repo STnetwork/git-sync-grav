@@ -44,4 +44,4 @@ So one of the goals of networking is to keep the headers as small as possible so
 
 ---
 
-![](howitworks3.png?cropResize=1100,1100)   {.center}
+![](howitworks3.png?lightbox=1100,1100&resize=1100,1100)   {.center}
