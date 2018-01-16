@@ -42,4 +42,4 @@ The result is that as the data moves through or down the OSI model, it becomes l
 So one of the goals of networking is to keep the headers as small as possible so that we can minimize the amount of data or the overhead that the network has to handle in order to process each one of the datagrams that are transmitted.
 
 ---
-![](howitworks3.png?lightbox=2000,1100&cropResize=800,800)   {.center}
+![](howitworks3.png?lightbox=2000,1100&cropResize=1100,1100)   {.center}
