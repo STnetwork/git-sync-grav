@@ -24,7 +24,6 @@ facebookenable: true
 
 In this first diagram, we see how we start out with data coming from the Operating System or more accurately, coming from applications running on the Operating System. And we see how each layer of the OSI model adds its own unique header. Now, each one of these headers that are added to each player of the OSI model, gives information to the computer on the other end about the data that is being transmitted.
 
-```
 * The application header for example, tells the computer on the other end what applications or services running on the operating system are being used for this data. 
 * The presentation header contains information about encryption, compression, translation, anything like that that the computer on the other end needs to know in order to identify and use the data that's being transmitted. 
 * The session layer presents information needed by the session layer on the receiving end to set up the session between the two processes that the data applies to.
@@ -32,4 +31,3 @@ In this first diagram, we see how we start out with data coming from the Operati
 * The network header provides information about the overall final destination of the data that's being transmitted. 
 * The data link layer provides the address of the next node that the data needs to pass on to in order to reach its ultimate destination. It also includes a trailer that contains some error correction information.
 * All this information is then converted into ones and zeros or encoded into ones and zeros and put on the media being used to transmit the data. That's what this particular graphic is showing us.
-```
