@@ -41,3 +41,7 @@ Now the way the computer handles this or the way the datagrams are handled by th
 The result is that as the data moves through or down the OSI model, it becomes larger and larger and larger. This is illustrated by the fact that data starts out as yellow and as it moves down the OSI layers the yellow portion becomes larger and larger and larger because it is containing the headers of the layer above it. This data section becoming larger and larger and larger is what is called overhead and so the more information contained in each one of the headers of the OSI model, the larger the overall data portion of the datagram becomes.
 
 So one of the goals of networking is to keep the headers as small as possible so that we can minimize the amount of data or the overhead that the network has to handle in order to process each one of the datagrams that are transmitted.
+
+---
+
+![](howitworks3.png?cropResize=1100,1100)   {.center}
