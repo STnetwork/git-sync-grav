@@ -31,3 +31,6 @@ In this first diagram, we see how we start out with data coming from the Operati
 * The network header provides information about the overall final destination of the data that's being transmitted. 
 * The data link layer provides the address of the next node that the data needs to pass on to in order to reach its ultimate destination. It also includes a trailer that contains some error correction information.
 * All this information is then converted into ones and zeros or encoded into ones and zeros and put on the media being used to transmit the data. That's what this particular graphic is showing us.
+
+
+![](howitworks2.png?cropResize=1100,1100)   {.center}
