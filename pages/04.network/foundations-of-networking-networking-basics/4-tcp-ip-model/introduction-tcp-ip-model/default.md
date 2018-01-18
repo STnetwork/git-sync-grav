@@ -1,6 +1,6 @@
 ---
 title: 'Introduction TCP/IP Model'
-date: '01/18/2018 2:39pm'
+date: '01/18/2018 10:40am'
 twitterenable: true
 twittercardoptions: summary
 articleenabled: false
