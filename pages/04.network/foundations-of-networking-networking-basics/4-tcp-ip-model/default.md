@@ -22,7 +22,7 @@ facebookenable: true
 ## [Introduction TCP/IP Model](/network/foundations-of-networking-networking-basics/4-tcp-ip-model/introduction-tcp-ip-model)
 ## [Layer 1 - Application Layer (TCP/IP)](/network/foundations-of-networking-networking-basics/4-tcp-ip-model/layer-1-application-layer-tcp-ip)
 ## [Layer 2 - Transport Layer (TCP/IP)](/network/foundations-of-networking-networking-basics/4-tcp-ip-model/layer-2-transport-layer-tcp-ip)
-## [Layer 3 - Network Layer](/network/foundations-of-networking-networking-basics/3-osi-model/layer-3-network-layer)
+## [Layer 3 - Internet Layer (TCP/IP)](/network/foundations-of-networking-networking-basics/4-tcp-ip-model/layer-3-internet-layer-tcp-ip)
 ## [Layer 4 - Transport Layer](/network/foundations-of-networking-networking-basics/3-osi-model/layer-4-transport-layer)
 ## [Layer 5 - Session Layer](/network/foundations-of-networking-networking-basics/3-osi-model/layer-5-session-layer)
 ## [Layer 6 - Presentation Layer](/network/foundations-of-networking-networking-basics/3-osi-model/layer-6-presentation-layer)
