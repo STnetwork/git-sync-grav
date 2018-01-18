@@ -40,4 +40,4 @@ facebookenable: true
 
 ## Common TCP-IP Protocols
 
-![](TCP-IP_Model2.png?cropResize=500,500)   {.center}
+![](TCP-IP_Model2.png?cropResize=600,600)   {.center}
