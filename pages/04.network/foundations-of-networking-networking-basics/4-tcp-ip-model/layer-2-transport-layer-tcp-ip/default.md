@@ -17,4 +17,4 @@ restaurant:
 facebookenable: true
 ---
 
-# <a href="/network/foundations-of-networking-networking-basics/4-tcp-ip-model" class="nav-button transform"><span></span></a>Layer 1 - Application Layer (TCP/IP)
+# <a href="/network/foundations-of-networking-networking-basics/4-tcp-ip-model" class="nav-button transform"><span></span></a>Layer 2 - Transport Layer (TCP/IP)
