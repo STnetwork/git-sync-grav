@@ -18,3 +18,5 @@ facebookenable: true
 ---
 
 # <a href="/network/foundations-of-networking-networking-basics/4-tcp-ip-model" class="nav-button transform"><span></span></a>Introduction TCP/IP Model
+
+![](TCP_IP_Model.png?cropResize=500,500)   {.center}
