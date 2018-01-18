@@ -24,8 +24,3 @@ facebookenable: true
 ## [Layer 2 - Transport Layer (TCP/IP)](/network/foundations-of-networking-networking-basics/4-tcp-ip-model/layer-2-transport-layer-tcp-ip)
 ## [Layer 3 - Internet Layer (TCP/IP)](/network/foundations-of-networking-networking-basics/4-tcp-ip-model/layer-3-internet-layer-tcp-ip)
 ## [Layer 4 - Network Interface Layer (TCP/IP)](/network/foundations-of-networking-networking-basics/4-tcp-ip-model/layer-4-network-interface-layer-tcp-ip)
-## [Layer 5 - Session Layer](/network/foundations-of-networking-networking-basics/3-osi-model/layer-5-session-layer)
-## [Layer 6 - Presentation Layer](/network/foundations-of-networking-networking-basics/3-osi-model/layer-6-presentation-layer)
-## [Layer 7 - Application Layer](/network/foundations-of-networking-networking-basics/3-osi-model/layer-7-application-layer)
-## [Encapsulation and de-Encapsulation](/network/foundations-of-networking-networking-basics/3-osi-model/encapsulation-and-de-encapsulation)
-## [How Layer works Together](/network/foundations-of-networking-networking-basics/3-osi-model/how-layer-works-together)
