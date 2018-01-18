@@ -1,5 +1,20 @@
 ---
 title: 'Foundations of Networking - Networking Basics'
+twitterenable: true
+twittercardoptions: summary
+articleenabled: false
+musiceventenabled: false
+orgaenabled: false
+orga:
+    ratingValue: 2.5
+orgaratingenabled: false
+eventenabled: false
+personenabled: false
+restaurantenabled: false
+restaurant:
+    acceptsReservations: 'yes'
+    priceRange: $
+facebookenable: true
 ---
 
 # <a href="/network/" class="nav-button transform"><span></span></a>Foundations of Networking - Networking Basics
@@ -17,3 +32,5 @@ title: 'Foundations of Networking - Networking Basics'
 ##  [1. Network Topologies](/network/foundations-of-networking-networking-basics/1-network-topologies)
 ##  [2. Network Implementations](/network/foundations-of-networking-networking-basics/2-network-implementations)
 ##  [3. OSI Model](/network/foundations-of-networking-networking-basics/3-osi-model)
+##  [4. TCP/IP Model](/network/foundations-of-networking-networking-basics/4-tcp-ip-model)
+
