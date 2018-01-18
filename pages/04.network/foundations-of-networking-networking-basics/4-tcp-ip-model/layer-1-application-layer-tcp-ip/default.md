@@ -26,7 +26,7 @@ facebookenable: true
 * Defines protocols, services, and processes that allow programs and users to interface with the network
 * Defines how programs interface with the Transport Layer services to use the network
 ```
-Common Application Layer Protocols :
+**Common Application Layer Protocols** :
 * HTTP
 * Telnet
 * FTP
