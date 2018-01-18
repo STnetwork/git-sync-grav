@@ -37,3 +37,7 @@ facebookenable: true
 * All TCP/IP protocols are located on the top three layers.
 * Protocols located on bottom layer are not part of the TCP/IP suite.
 * Each layer corresponds to one or more OSI model layers.
+
+## Common TCP-IP Protocols
+
+![](TCP-IP_Model2.png?cropResize=500,500)   {.center}
