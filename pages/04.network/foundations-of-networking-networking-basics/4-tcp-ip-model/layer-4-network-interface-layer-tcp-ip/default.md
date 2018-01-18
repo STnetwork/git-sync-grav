@@ -19,4 +19,22 @@ facebookenable: true
 
 # <a href="/network/foundations-of-networking-networking-basics/4-tcp-ip-model" class="nav-button transform"><span></span></a>Layer 4 - Network Interface Layer (TCP/IP)
 
+![](Network-Layer.png?cropResize=300,300)   {.center}
 
+```
+* Sometimes called Network Access Layer.
+* Specifies how data is physically sent through a network.
+* Specifies how bits are electrically signaled by hardware.
+* Defines how hardware devices interface with network medium.
+* Example : Coaxial cable, optical cable, and twisted pair cable.
+```
+
+**Standards Defined by This Layer** :
+* Ethernet
+* Token Ring
+* FDDI
+* X.25
+* Frame Relay
+* RS-232
+* V.35
+* ...
