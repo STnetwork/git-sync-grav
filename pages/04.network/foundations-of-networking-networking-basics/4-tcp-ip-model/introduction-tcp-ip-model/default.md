@@ -20,7 +20,7 @@ facebookenable: true
 
 # <a href="/network/foundations-of-networking-networking-basics/4-tcp-ip-model" class="nav-button transform"><span></span></a>Introduction TCP/IP Model
 
-![](TCP_IP_Model.png?cropResize=400,400)   {.center}
+![](TCP_IP_Model.png?cropResize=300,300)   {.center}
 
 ```
 * Was created by the Department of Defense in the 1970s
