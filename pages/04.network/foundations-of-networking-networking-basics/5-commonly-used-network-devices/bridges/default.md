@@ -20,7 +20,7 @@ facebookenable: true
 
 # <a href="/network/foundations-of-networking-networking-basics/5-commonly-used-network-devices" class="nav-button transform"><span></span></a>Bridges
 
-![](BRIDGE.png?cropResize=*700,700)   {.center}
+![](BRIDGE.png?cropResize=700,700)   {.center}
 
 ```
 * Device used to break up a network into smaller segments.
