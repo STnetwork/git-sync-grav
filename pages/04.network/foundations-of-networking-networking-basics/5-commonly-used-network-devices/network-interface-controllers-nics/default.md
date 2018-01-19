@@ -19,7 +19,7 @@ facebookenable: true
 
 # <a href="/network/foundations-of-networking-networking-basics/4-tcp-ip-model" class="nav-button transform"><span></span></a>Network Interface Controllers NICs
 
-![](NICs.png)
+![](NICs.png?cropResize=500,500)   {.center}
 
 ```
 * Stands for network interface card or controller
