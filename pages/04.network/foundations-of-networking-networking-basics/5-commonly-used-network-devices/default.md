@@ -19,7 +19,7 @@ facebookenable: true
 
 # <a href="/network/foundations-of-networking-networking-basics" class="nav-button transform"><span></span></a>5. Commonly Used Network Devices
 
-## [Network Interface Controllers NICs](/network/foundations-of-networking-networking-basics/4-tcp-ip-model/introduction-tcp-ip-model)
+## [Network Interface Controllers NICs](/network/foundations-of-networking-networking-basics/5-commonly-used-network-devices/network-interface-controllers-nics)
 ## [HUBs](/network/foundations-of-networking-networking-basics/4-tcp-ip-model/layer-1-application-layer-tcp-ip)
 ## [Bridges](/network/foundations-of-networking-networking-basics/4-tcp-ip-model/layer-2-transport-layer-tcp-ip)
 ## [Switches](/network/foundations-of-networking-networking-basics/4-tcp-ip-model/layer-3-internet-layer-tcp-ip)
