@@ -22,6 +22,6 @@ facebookenable: true
 ## [Network Interface Controllers NICs](/network/foundations-of-networking-networking-basics/5-commonly-used-network-devices/network-interface-controllers-nics)
 ## [HUBs](/network/foundations-of-networking-networking-basics/5-commonly-used-network-devices/hubs)
 ## [Bridges](/network/foundations-of-networking-networking-basics/5-commonly-used-network-devices/bridges)
-## [Switches](/network/foundations-of-networking-networking-basics/4-tcp-ip-model/layer-3-internet-layer-tcp-ip)
-## [Routers](/network/foundations-of-networking-networking-basics/4-tcp-ip-model/layer-4-network-interface-layer-tcp-ip)
+## [Switches](/network/foundations-of-networking-networking-basics/5-commonly-used-network-devices/switches)
+## [Routers](/network/foundations-of-networking-networking-basics/5-commonly-used-network-devices/routers)
 ## [Introduction Wired and Wireless Access Points](/network/foundations-of-networking-networking-basics/4-tcp-ip-model/layer-4-network-interface-layer-tcp-ip)
