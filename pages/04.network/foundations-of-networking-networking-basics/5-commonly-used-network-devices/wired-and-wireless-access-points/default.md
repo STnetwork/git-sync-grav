@@ -20,6 +20,8 @@ facebookenable: true
 
 # <a href="/network/foundations-of-networking-networking-basics/5-commonly-used-network-devices" class="nav-button transform"><span></span></a>Wired and Wireless Access Points
 
+![](Wired%20and%20Wireless%20Access%20Points.png)
+
 ```
 * Devices that allow computers to access the network
 * Commonly used to connect home computers to Internet
