@@ -44,11 +44,11 @@ facebookenable: true
 
 
 **Managed and Unmanaged Switches** :
-* Managed switches
+* **Managed switches**
 	* Are programmable
 	* Use to control how data behaves on the network
 	* Most often found in corporate environments
-* Unmanaged switches
+* **Unmanaged switches**
 	* They generally come with a default configuration
 	* Most can only be changed within predefined limits
 	* Some cannot be changed at all
