@@ -30,10 +30,10 @@ facebookenable: true
 * Too many hosts can result in constant collisions.
 ```
 Three Main Types of **HUB** :
-* Passive hubs
+* **Passive hubs**
 	* Works like a cable splitters.
 	* The more devices, the weaker the signal to each device.
-* Active hubs
+* **Active hubs**
 	* Need a power source
 	* Power added to the signal when passed though port.
 	* Prevents weakening of signal by multiple devices.
@@ -43,7 +43,7 @@ Three Main Types of **HUB** :
 	* No more than 5 segments can be linked together.
 	* Up to 4 linking devices only can be used to form segments.
 	* Only 3 segments can be populated by computers. 
-* Intelligent hubs
+* **Intelligent hubs**
 	* They are really active hubs with additional features.
 	* Some have network diagnostic abilities
 	* Some have management abilities
