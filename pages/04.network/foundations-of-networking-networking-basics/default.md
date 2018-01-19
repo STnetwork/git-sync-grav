@@ -33,4 +33,5 @@ facebookenable: true
 ##  [2. Network Implementations](/network/foundations-of-networking-networking-basics/2-network-implementations)
 ##  [3. OSI Model](/network/foundations-of-networking-networking-basics/3-osi-model)
 ##  [4. TCP/IP Model](/network/foundations-of-networking-networking-basics/4-tcp-ip-model)
+##  [5. Commonly Used Network Devices](/network/foundations-of-networking-networking-basics/5-commonly-used-network-devices)
 
