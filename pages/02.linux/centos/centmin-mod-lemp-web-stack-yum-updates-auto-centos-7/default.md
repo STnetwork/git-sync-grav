@@ -1,12 +1,28 @@
 ---
 title: 'CENTMIN MOD LEMP WEB STACK - YUM Updates Auto - CentOS 7'
+date: '21-01-2018 06:41'
 process:
     markdown: true
     twig: true
 twig_first: true
+twitterenable: true
+twittercardoptions: summary
+articleenabled: false
+musiceventenabled: false
+orgaenabled: false
+orga:
+    ratingValue: 2.5
+orgaratingenabled: false
+eventenabled: false
+personenabled: false
+restaurantenabled: false
+restaurant:
+    acceptsReservations: 'yes'
+    priceRange: $
+facebookenable: true
 ---
 
-# <a href="/linux/centos" class="nav-button transform"><span></span></a>LEMP WEB STACK - CentminMod - CentOS 7 - YUM Updates Auto
+# <a href="/linux/centos" class="nav-button transform"><span></span></a>CENTMIN MOD LEMP WEB STACK - YUM Updates Auto - CentOS 7
 
 ---
 
@@ -54,9 +70,7 @@ Shell Based Menu :
 
 ```
 --------------------------------------------------------
-Centmin Mod 1.2.3-eva2000.08 - http://centminmod.com
---------------------------------------------------------
-                   Centmin Mod Menu                   
+     Centmin Mod Menu 123.09beta01 centminmod.com
 --------------------------------------------------------
 1).  Centmin Install
 2).  Add Nginx vhost domain
@@ -68,18 +82,18 @@ Centmin Mod 1.2.3-eva2000.08 - http://centminmod.com
 8).  XCache Install
 9).  APC Cache Install
 10). Memcached Server Re-install
-11). MariaDB 5.2/5.5 & 10.x Upgrade Sub-Menu
+11). MariaDB MySQL Upgrade & Management
 12). Zend OpCache Install/Re-install
-13). Install ioping.sh vbtechsupport.com/1239/
+13). Install/Reinstall Redis PHP Extension
 14). SELinux disable
 15). Install/Reinstall ImagicK PHP Extension
 16). Change SSHD Port Number
 17). Multi-thread compression: pigz,pbzip2,lbzip2...
 18). Suhosin PHP Extension install
 19). Install FFMPEG and FFMPEG PHP Extension
-20). NSD Re-install
+20). NSD Install/Re-Install
 21). Update - Nginx + PHP-FPM + Siege
-22). Add Wordpress Nginx vhost + WP Super Cache
+22). Add Wordpress Nginx vhost + Cache Plugin
 23). Update Centmin Mod Code Base
 24). Exit
 --------------------------------------------------------
@@ -107,7 +121,7 @@ yum -y update && yum -y upgrade
 It's a quick curl installer method, it's easy just one line. This line will install automatically the lastest version.
 
 ``` bash
-yum -y update; curl -O https://centminmod.com/installer.sh && chmod 0700 installer.sh && bash installer.sh
+yum -y update; curl -O https://centminmod.com/betainstaller.sh && chmod 0700 betainstaller.sh && bash betainstaller.sh
 ```
 
 ### Edit color bash
@@ -146,7 +160,7 @@ service network restart
 mkdir -p /root/tools
 nano /root/tools/updatecm.sh
 #!/bin/bash
-branchname=123.08stable
+branchname=123.09beta01
 cd /usr/local/src/centminmod
 git stash
 git pull
