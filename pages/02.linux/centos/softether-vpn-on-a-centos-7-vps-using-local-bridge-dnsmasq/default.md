@@ -17,7 +17,7 @@ restaurantenabled: false
 restaurant:
     acceptsReservations: 'yes'
     priceRange: $
-facebookenable: true
+facebookenable: false
 ---
 
 # <a href="/linux/centos" class="nav-button transform"><span></span></a>SoftEther VPN on a CentOS 7 VPS Using Local Bridge + DNSmasq (DHCP) + CSF Firewall
