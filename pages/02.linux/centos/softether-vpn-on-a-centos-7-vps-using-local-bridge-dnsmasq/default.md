@@ -76,7 +76,7 @@ yum -y update && yum -y upgrade
 
 Go to the website of SoftEther and search the last version of **SoftEther Server** for **Linux Plateform** with the **CPU Intel x64/AMD64** in my case or if you use **x32 bits CPU** choose the good version.
 
-The version which I will install is : **SoftEther VPN 4.24 Build 9652 Beta (December 21, 2017).**
+The version which I will install is : **SoftEther VPN 4.24 Build 9652 Beta.**
 
 After the download, exctract it & make it :
 
