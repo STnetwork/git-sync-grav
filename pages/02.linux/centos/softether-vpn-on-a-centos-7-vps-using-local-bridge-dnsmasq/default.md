@@ -5,7 +5,7 @@ googletitle: 'SoftEther VPN on a CentOS 7 VPS Using Local Bridge + DNSmasq (DHCP
 googledesc: 'Setup Guide for SoftEther VPN Server on CentOS 7, SecureNAT of SoftEther VPN Server which includes DHCP will be disabled, DNSmasq with its DHCP will be used instead. A guide for Firewall CSF will also be provided to enable NAT in the `/etc/csf/csfpre.sh`, and some rules to allow access on the Internet with different protocols (OpenVPN & SoftEther Client).'
 twitterenable: false
 twittercardoptions: summary
-articleenabled: false
+articleenabled: true
 musiceventenabled: false
 orgaenabled: false
 orga:
