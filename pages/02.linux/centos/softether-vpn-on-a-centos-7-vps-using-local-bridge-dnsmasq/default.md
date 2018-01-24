@@ -9,6 +9,7 @@ articleenabled: true
 article:
     image_url: /linux/centos/softether-vpn-on-a-centos-7-vps-using-local-bridge-dnsmasq/0.png
     author: STnetwork
+    publisher_name: STnetwork
 musiceventenabled: false
 orgaenabled: false
 orga:
