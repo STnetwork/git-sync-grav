@@ -7,6 +7,7 @@ twitterenable: false
 twittercardoptions: summary
 articleenabled: true
 article:
+    image_url: /linux/centos/softether-vpn-on-a-centos-7-vps-using-local-bridge-dnsmasq/0.png
     author: STnetwork
 musiceventenabled: false
 orgaenabled: false
@@ -15,6 +16,10 @@ orga:
 orgaratingenabled: false
 eventenabled: false
 personenabled: false
+musicalbumenabled: false
+productenabled: false
+product:
+    ratingValue: 2.5
 restaurantenabled: false
 restaurant:
     acceptsReservations: 'yes'
