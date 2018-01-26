@@ -7,6 +7,8 @@ twitterenable: false
 twittercardoptions: summary
 articleenabled: true
 article:
+    datePublished: '01-01-2018 09:38'
+    dateModified: '04-01-2018 09:38'
     image_url: /linux/centos/softether-vpn-on-a-centos-7-vps-using-local-bridge-dnsmasq/0.png
     author: STnetwork
     publisher_name: STnetwork
