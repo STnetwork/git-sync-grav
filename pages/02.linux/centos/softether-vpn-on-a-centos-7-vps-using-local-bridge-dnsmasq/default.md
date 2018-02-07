@@ -102,9 +102,11 @@ Move the whole folder `vpnserver/` to the directory `/usr/local` & attribute the
 
 ```
 cd ..
-mv vpnserver/ /usr/local
-chmod 600 * /usr/local/vpnserver/
-chmod 700 /usr/local/vpnserver/vpncmd && chmod 700 /usr/local/vpnserver/
+mv vpnserver /usr/local
+cd /usr/local/vpnserver/
+chmod 600 *
+chmod 700 vpncmd
+chmod 700 vpnserver
 ```
 
 
