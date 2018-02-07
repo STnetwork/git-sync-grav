@@ -366,3 +366,47 @@ To finish restart SoftEther VPN Server, DNSmasq and CSF :
 ```
 csf -r && service dnsmasq restart && service vpnserver restart
 ```
+
+## Upgrade SoftEther VPN Server From (4.24, Build 9652, Beta) To (4.25, Build 9656, RTM).
+
+### Backup SoftEther VPN Server Configuration :
+
+Before upgrading to the last version of SoftEther VPN Server, we need to backup the current configuration, we should backup the file `vpn_server.config` present in `/usr/local/vpnserver` & backup the directory `backup.vpn_server.config` also present in `/usr/local/vpnserver`.
+
+### Upgrade SoftEther VPN Server
+
+Search the last version of **SoftEther Server** for **Linux Plateform** with the **CPU Intel x64/AMD64** in our case or if you use **x32 bits CPU** choose the good version.
+
+The version which we will install is : **SoftEther VPN 4.25 Build 9656 RTM (January 15, 2018).**
+
+Download, exctract & make it :
+
+```
+wget http://www.softether-download.com/files/softether/v4.25-9656-rtm-2018.01.15-tree/Linux/SoftEther_VPN_Server/64bit_-_Intel_x64_or_AMD64/softether-vpnserver-v4.25-9656-rtm-2018.01.15-linux-x64-64bit.tar.gz
+tar -xzf softether-vpnserver-v4.25-9656-rtm-2018.01.15-linux-x64-64bit.tar.gz
+cd vpnserver
+make
+```
+
+Stop DNSmasq & vpnserver services :
+
+```
+service dnsmasq stop && service vpnserver stop
+```
+
+Move and overwrite the whole folder `vpnserver/` to the directory `/usr/local` & attribute these permissions :
+
+```
+cd ..
+mv vpnserver /usr/local
+cd /usr/local/vpnserver/
+chmod 600 *
+chmod 700 vpncmd
+chmod 700 vpnserver
+```
+
+To finish restart SoftEther VPN Server & DNSmasq :
+
+```
+service dnsmasq restart && service vpnserver restart
+```
