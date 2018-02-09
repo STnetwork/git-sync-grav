@@ -375,8 +375,6 @@ Before upgrading to the last version of SoftEther VPN Server, we need to backup 
 
 ### Upgrade SoftEther VPN Server
 
-Search the last version of **SoftEther Server** for **Linux Plateform** with the **CPU Intel x64/AMD64** in our case or if you use **x32 bits CPU** choose the good version.
-
 The version which we will install is : **SoftEther VPN 4.25 Build 9656 RTM (January 15, 2018).**
 
 Download, exctract & make it :
