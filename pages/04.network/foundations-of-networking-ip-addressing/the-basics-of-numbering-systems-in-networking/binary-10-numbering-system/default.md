@@ -19,6 +19,26 @@ restaurant:
     priceRange: $
 ---
 
+#  <a href="https://stnetwork.fr/network/foundations-of-networking-ip-addressing/the-basics-of-numbering-systems-in-networking" class="nav-button transform"><span></span></a>Binary 10 Numbering System
+
+
+
+---
+
+<div>
+<nav class="breadcrumb is-medium" aria-label="breadcrumbs">
+  <ul>
+    <li><a href="/"><span class="icon is-small"><i class="fa fa-home"></i></span>Home<span></span></a></li>
+    <li><a href="/network"><span class="icon is-small"><i class="fa fa-connectdevelop"></i></span><span>Network</span></a></li>
+    <li><a href="/network/foundations-of-networking-ip-addressing"></span>Foundations of Networking - IP Addressing<span></span></a></li>
+    <li><a href="/network/foundations-of-networking-ip-addressing/the-basics-of-numbering-systems-in-networking"></span>1. The Basics of Numbering Systems in Networking<span></span></a></li>
+    <li><a href="#"></span>Binary 10 Numbering System<span></span></a></li>
+  </ul>
+</nav>
+</div>
+
+---
+
 ```
 Base 10 Numbering System :
 • The numbering system people use it the Base 10 numbering system, also called Decimal system.
