@@ -1,5 +1,5 @@
 ---
-title: 'Binary 10 Numbering System'
+title: 'Binary Numbering System'
 twittercardoptions: summary
 articleenabled: false
 musiceventenabled: false
@@ -19,7 +19,7 @@ restaurant:
     priceRange: $
 ---
 
-#  <a href="https://stnetwork.fr/network/foundations-of-networking-ip-addressing/the-basics-of-numbering-systems-in-networking" class="nav-button transform"><span></span></a>Binary 10 Numbering System
+#  <a href="https://stnetwork.fr/network/foundations-of-networking-ip-addressing/the-basics-of-numbering-systems-in-networking" class="nav-button transform"><span></span></a>Binary Numbering System
 
 
 
@@ -32,7 +32,7 @@ restaurant:
     <li><a href="/network"><span class="icon is-small"><i class="fa fa-connectdevelop"></i></span><span>Network</span></a></li>
     <li><a href="/network/foundations-of-networking-ip-addressing"></span>Foundations of Networking - IP Addressing<span></span></a></li>
     <li><a href="/network/foundations-of-networking-ip-addressing/the-basics-of-numbering-systems-in-networking"></span>1. The Basics of Numbering Systems in Networking<span></span></a></li>
-    <li><a href="#"></span>Binary 10 Numbering System<span></span></a></li>
+    <li><a href="#"></span>Binary Numbering System<span></span></a></li>
   </ul>
 </nav>
 </div>
