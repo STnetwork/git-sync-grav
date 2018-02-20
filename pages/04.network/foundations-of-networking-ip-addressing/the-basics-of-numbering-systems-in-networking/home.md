@@ -37,4 +37,4 @@ restaurant:
 </div>
 
 ---
-##  [1. Binary 10 Numbering System](/network/foundations-of-networking-networking-basics/1-network-topologies)
+##  [1. Binary 10 Numbering System](/network/foundations-of-networking-ip-addressing/the-basics-of-numbering-systems-in-networking)
