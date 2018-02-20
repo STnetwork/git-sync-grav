@@ -20,3 +20,19 @@ restaurant:
 ---
 
 ##  [1. Binary 10 Numbering System](/network/foundations-of-networking-networking-basics/1-network-topologies)
+
+
+
+---
+
+<div>
+<nav class="breadcrumb is-medium" aria-label="breadcrumbs">
+  <ul>
+    <li><a href="/"><span class="icon is-small"><i class="fa fa-home"></i></span>Home<span></span></a></li>
+    <li><a href="/network"><span class="icon is-small"><i class="fa fa-connectdevelop"></i></span><span>Network</span></a></li>
+    <li><a href="/network/foundations-of-networking-ip-addressing">Foundations of Networking - IP Addressing</a></li>
+  </ul>
+</nav>
+</div>
+
+---
