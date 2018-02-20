@@ -74,3 +74,9 @@ Base 2 Numbering System also called Binary :
 |-----|-----|-----|-----|----:|-----|-----|-----|
 | 128 | 64  | 32  | 16  | 8   | 4   | 2   | 1   |
 | 1   | 0   | 1   | 1   | 0   | 0   | 0   | 1   |
+
+| Option | Description |
+| ------ | ----------- |
+| data   | path to data files to supply the data that will be passed into templates. |
+| engine | engine to be used for processing templates. Handlebars is the default. |
+| ext    | extension to be used for dest files. |
