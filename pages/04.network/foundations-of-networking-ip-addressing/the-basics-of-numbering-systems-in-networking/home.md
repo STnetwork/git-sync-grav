@@ -19,7 +19,7 @@ restaurant:
     priceRange: $
 ---
 
-# <a href="/network" class="nav-button transform"><span></span></a>IP Addressing
+# <a href="/network" class="nav-button transform"><span></span></a>1. The Basics of Numbering Systems in Networking
 
 
 
