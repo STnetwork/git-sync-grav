@@ -1,17 +1,39 @@
 ---
 title: '1. Network Topologies'
+twittercardoptions: summary
+articleenabled: false
+musiceventenabled: false
+orgaenabled: false
+orga:
+    ratingValue: 2.5
+orgaratingenabled: false
+eventenabled: false
+personenabled: false
+musicalbumenabled: false
+productenabled: false
+product:
+    ratingValue: 2.5
+restaurantenabled: false
+restaurant:
+    acceptsReservations: 'yes'
+    priceRange: $
 ---
 
 # <a href="/network/foundations-of-networking-networking-basics" class="nav-button transform"><span></span></a>1. Network Topologies
 
 ---
 
-<ul class="breadcrumbs2">
-    <li><a href="/"><span class="icon mif-home"></span></a></li>
-    <li><a href="/network">Network</a></li>
+<div>
+<nav class="breadcrumb is-medium" aria-label="breadcrumbs">
+  <ul>
+    <li><a href="/"><span class="icon is-small"><i class="fa fa-home"></i></span>Home<span></span></a></li>
+    <li><a href="/network"><span class="icon is-small"><i class="fa fa-connectdevelop"></i></span><span>Network</span></a></li>
     <li><a href="/network/foundations-of-networking-networking-basics">Foundations of Networking - Networking Basics</a></li>
-    <li><a href="/network/foundations-of-networking-networking-basics/1-network-topologies">1. Network Topologies</a></li>
-</ul>
+    <li><a href="#">1. Network Topologies</a></li>
+
+  </ul>
+</nav>
+</div>
 
 ---
 
