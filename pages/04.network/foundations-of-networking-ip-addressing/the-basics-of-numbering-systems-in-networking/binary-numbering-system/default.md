@@ -39,6 +39,8 @@ restaurant:
 
 ---
 
+# Base 10 Numbering System
+
 ```
 Base 10 Numbering System :
 • The numbering system people use it the Base 10 numbering system, also called Decimal system.
@@ -47,3 +49,20 @@ Base 10 Numbering System :
 • We have 1000s, 100s, 10s, 1s, and so on.
 • 4 * 1000 + 7 * 100 + 8 * 10 + 3 * 1 = 4783
 ```
+
+---
+
+# Binary 2 Numbering System
+
+```
+Base 2 Numbering System also called Binary :
+• It only use 2 symbols : 0 and 1
+• Each value symbol to the left is multiplied by 2 times the value of the symbol to the right.
+• As result, we have 16s, 8s, 4s, 2s, and 1s.
+• 1 * 16 + 0 * 8 + 1 * 4 + 1 * 2 + 1 * 1 = 10111, The decimal equivalent is 23
+• All numbers in Binary are represented by 1s and 0s.
+• In electronics, 1 is represented by power being On or at a Higher Voltage.
+• 0 is represented by power being Off or at Lower Voltage.
+• In networking, we usually only need to convert numbers with 8 bits or less.
+```
+
