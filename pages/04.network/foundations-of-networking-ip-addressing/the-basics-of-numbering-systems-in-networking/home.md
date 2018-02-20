@@ -19,7 +19,8 @@ restaurant:
     priceRange: $
 ---
 
-##  [1. Binary 10 Numbering System](/network/foundations-of-networking-networking-basics/1-network-topologies)
+# <a href="/network" class="nav-button transform"><span></span></a>IP Addressing
+
 
 
 
@@ -36,3 +37,4 @@ restaurant:
 </div>
 
 ---
+##  [1. Binary 10 Numbering System](/network/foundations-of-networking-networking-basics/1-network-topologies)
