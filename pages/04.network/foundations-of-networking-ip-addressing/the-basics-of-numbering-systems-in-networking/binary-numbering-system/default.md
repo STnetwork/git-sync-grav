@@ -39,7 +39,7 @@ restaurant:
 
 ---
 
-# Base 10 Numbering System
+## Base 10 Numbering System
 
 ```
 Base 10 Numbering System :
@@ -52,7 +52,7 @@ Base 10 Numbering System :
 
 ---
 
-# Binary 2 Numbering System
+## Binary 2 Numbering System
 
 ```
 Base 2 Numbering System also called Binary :
