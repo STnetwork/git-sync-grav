@@ -19,7 +19,7 @@ restaurant:
     priceRange: $
 ---
 
-# <a href="/" class="nav-button transform"><span></span></a>IP Addressing
+# <a href="/network" class="nav-button transform"><span></span></a>IP Addressing
 
 
 
