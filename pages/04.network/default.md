@@ -23,10 +23,14 @@ restaurant:
 
 ---
 
-<ul class="breadcrumbs2">
-    <li><a href="/"><span class="icon mif-home"></span></a></li>
-    <li><a href="/network">Network</a></li>
-</ul>
+<div>
+<nav class="breadcrumb is-medium" aria-label="breadcrumbs">
+  <ul>
+    <li><a href="/"><span class="icon is-small"><i class="fa fa-home"></i></span>Home<span></span></a></li>
+    <li><a href="#"><span class="icon is-small"><i class="fa fa-connectdevelop"></i></span><span>Network</span></a></li>
+  </ul>
+</nav>
+</div>
 
 ---
 
