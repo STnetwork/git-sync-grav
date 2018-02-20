@@ -30,7 +30,7 @@ restaurant:
   <ul>
     <li><a href="/"><span class="icon is-small"><i class="fa fa-home"></i></span>Home<span></span></a></li>
     <li><a href="/network"><span class="icon is-small"><i class="fa fa-connectdevelop"></i></span><span>Network</span></a></li>
-    <li><a href="/network/foundations-of-networking-ip-addressing">Foundations of Networking - IP Addressing</a></li>
+    <li><a href="#">Foundations of Networking - IP Addressing</a></li>
   </ul>
 </nav>
 </div>
