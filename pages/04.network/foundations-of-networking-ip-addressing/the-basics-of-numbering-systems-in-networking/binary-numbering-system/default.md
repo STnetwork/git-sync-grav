@@ -66,3 +66,11 @@ Base 2 Numbering System also called Binary :
 • In networking, we usually only need to convert numbers with 8 bits or less.
 ```
 
+---
+
+## Converting Binary to Decimal
+
+| 2^7 | 2^7 | 2^7 | 2^7 | 2^7 | 2^7 | 2^7 | 2^7 |
+|---|---|---|---|--:|---|---|---|
+|   |   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |   |
