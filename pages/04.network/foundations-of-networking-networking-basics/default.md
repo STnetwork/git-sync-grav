@@ -10,6 +10,10 @@ orga:
 orgaratingenabled: false
 eventenabled: false
 personenabled: false
+musicalbumenabled: false
+productenabled: false
+product:
+    ratingValue: 2.5
 restaurantenabled: false
 restaurant:
     acceptsReservations: 'yes'
@@ -21,11 +25,15 @@ facebookenable: true
 
 ---
 
-<ul class="breadcrumbs2">
-    <li><a href="/"><span class="icon mif-home"></span></a></li>
-    <li><a href="/network">Network</a></li>
-    <li><a href="/network/foundations-of-networking-networking-basics">Foundations of Networking - Networking Basics</a></li>
-</ul>
+<div>
+<nav class="breadcrumb is-medium" aria-label="breadcrumbs">
+  <ul>
+    <li><a href="/"><span class="icon is-small"><i class="fa fa-home"></i></span>Home<span></span></a></li>
+    <li><a href="/network"><span class="icon is-small"><i class="fa fa-connectdevelop"></i></span><span>Network</span></a></li>
+    <li><a href="#">Foundations of Networking - Networking Basics</a></li>
+  </ul>
+</nav>
+</div>
 
 ---
 
