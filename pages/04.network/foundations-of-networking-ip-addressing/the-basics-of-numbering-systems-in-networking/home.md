@@ -39,3 +39,4 @@ restaurant:
 ---
 
 ##  [1. Binary Numbering System](/network/foundations-of-networking-ip-addressing/the-basics-of-numbering-systems-in-networking/binary-numbering-system)
+##  [2. Hexadecimal Numbering System](/network/foundations-of-networking-ip-addressing/the-basics-of-numbering-systems-in-networking/hexadecimal-numbering-system)
