@@ -40,3 +40,5 @@ restaurant:
 
 ##  [1. Binary Numbering System](/network/foundations-of-networking-ip-addressing/the-basics-of-numbering-systems-in-networking/binary-numbering-system)
 ##  [2. Hexadecimal Numbering System](/network/foundations-of-networking-ip-addressing/the-basics-of-numbering-systems-in-networking/hexadecimal-numbering-system)
+##  [3. Octal Numbering System](/network/foundations-of-networking-ip-addressing/the-basics-of-numbering-systems-in-networking/octal-numbering-system)
+##  [4. Numbering Notation](/network/foundations-of-networking-ip-addressing/the-basics-of-numbering-systems-in-networking/numbering-notation)
