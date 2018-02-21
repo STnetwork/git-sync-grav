@@ -55,18 +55,12 @@ restaurant:
 
 ---
 
-## Binary 2 Numbering System
+## Converting Binary to Hexadecimal
 
 ```
-Base 2 Numbering System also called Binary :
-• It only use 2 symbols : 0 and 1
-• Each value symbol to the left is multiplied by 2 times the value of the symbol to the right.
-• As result, we have 16s, 8s, 4s, 2s, and 1s.
-• 1 * 16 + 0 * 8 + 1 * 4 + 1 * 2 + 1 * 1 = 10111, The decimal equivalent is 23
-• All numbers in Binary are represented by 1s and 0s.
-• In electronics, 1 is represented by power being On or at a Higher Voltage.
-• 0 is represented by power being Off or at Lower Voltage.
-• In networking, we usually only need to convert numbers with 8 bits or less.
+
+• 1101 0010 1001 0010 0111 1010 1110 0001
+•  D    2    9    2    7    A    E    1
 ```
 
 ---
