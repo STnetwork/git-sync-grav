@@ -86,12 +86,6 @@ facebookenable: true
 							<strong>{{ post.date|date("d M Y") }} - <a href="{{ post.url }}">{{ post.title }}</a></strong>
 							</li>
 					{% endfor %}
-					{% endfor %}
-					{% for post in page.find('/network/foundations-of-networking-ip-addressing/the-basics-of-numbering-systems-in-networking').children.order('date', 'desc').slice(0, 10) %}
-							<li class="post-item">
-							<strong>{{ post.date|date("d M Y") }} - <a href="{{ post.url }}">{{ post.title }}</a></strong>
-							</li>
-					{% endfor %}
 					</ul>
     </div>
 </b-panel>
