@@ -32,22 +32,25 @@ restaurant:
     <li><a href="/network"><span class="icon is-small"><i class="fa fa-connectdevelop"></i></span><span>Network</span></a></li>
     <li><a href="/network/foundations-of-networking-ip-addressing"></span>Foundations of Networking - IP Addressing<span></span></a></li>
     <li><a href="/network/foundations-of-networking-ip-addressing/the-basics-of-numbering-systems-in-networking"></span>1. The Basics of Numbering Systems in Networking<span></span></a></li>
-    <li><a href="#"></span>Binary Numbering System<span></span></a></li>
+    <li><a href="#"></span>Hexadecimal Numbering System<span></span></a></li>
   </ul>
 </nav>
 </div>
 
 ---
 
-## Base 10 Numbering System
+## Hexadecimal Numbering System
 
 ```
-Base 10 Numbering System :
-• The numbering system people use it the Base 10 numbering system, also called Decimal system.
-• We use 10 symbols to represent values from 0 to 9.
-• Each value in the position to the left is multiplied by 10 times the value located in the position to the right.
-• We have 1000s, 100s, 10s, 1s, and so on.
-• 4 * 1000 + 7 * 100 + 8 * 10 + 3 * 1 = 4783
+• Is a base 16 numbering system
+• Working with Hexadecimal easier than Binary
+• No need to convert to Decimal or Vice Versa
+• Only convert between Binary and Hexadecimal
+• Hexadecimal is used to shorten binary numbers
+• It is easier to read
+• It is easier to differentiate between Hexadecimal values than binary values
+• Every 4 Binary bits result in 1 in Hexadecimal value
+• The symbols used to represent Hexadecimal values are 0-9 and A-F
 ```
 
 ---
