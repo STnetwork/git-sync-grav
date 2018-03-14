@@ -2,6 +2,8 @@
 title: 'What''s DHCP & How DHCP works'
 ---
 
+[TOC]
+
 ---
 
 ## What's DHCP ?
