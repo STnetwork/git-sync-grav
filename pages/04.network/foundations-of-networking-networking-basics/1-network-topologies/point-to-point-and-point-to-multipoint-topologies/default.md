@@ -3,10 +3,6 @@ title: 'Point-to-Point & Point-to-Multipoint Topologies'
 date: '08/08/2017 2:38pm'
 ---
 
-#  <a href="/network/foundations-of-networking-networking-basics/1-network-topologies" class="nav-button transform"><span></span></a>Point-to-Point & Point-to-Multipoint Topologies
-
----
-
 <div>
 <nav class="breadcrumb is-medium" aria-label="breadcrumbs">
   <ul>
