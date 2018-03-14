@@ -16,6 +16,10 @@ date: '08/08/2017 2:38pm'
 
 ---
 
+[TOC]
+
+---
+
 ## Hierarchical Star Topology  
 
 ![Alt text](hierarchical-star-topology.png?cropResize=500,500)   {.center}
