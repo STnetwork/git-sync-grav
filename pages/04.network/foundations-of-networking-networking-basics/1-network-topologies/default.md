@@ -19,10 +19,6 @@ restaurant:
     priceRange: $
 ---
 
-# <a href="/network/foundations-of-networking-networking-basics" class="nav-button transform"><span></span></a>1. Network Topologies
-
----
-
 <div>
 <nav class="breadcrumb is-medium" aria-label="breadcrumbs">
   <ul>
