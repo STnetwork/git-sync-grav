@@ -26,7 +26,7 @@ restaurant:
 facebookenable: true
 ---
 
-[MINITOC]
+[TOC]
 
 <nav class="breadcrumb is-medium" aria-label="breadcrumbs">
   <ul>
