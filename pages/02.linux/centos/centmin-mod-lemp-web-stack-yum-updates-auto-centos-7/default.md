@@ -26,8 +26,6 @@ restaurant:
 facebookenable: true
 ---
 
-[TOC]
-
 <nav class="breadcrumb is-medium" aria-label="breadcrumbs">
   <ul>
     <li><a href="/"><span class="icon is-small"><i class="fa fa-home"></i></span>Home<span></span></a></li>
