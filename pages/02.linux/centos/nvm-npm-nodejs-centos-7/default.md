@@ -23,15 +23,10 @@ NVM - Node Version Manager is a Simple bash script to manage multiple active nod
 
 
 ``` bash
-curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.6/install.sh | bash
-source ~/.bashrc
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh | bash
 nvm --version
-0.33.6
+0.33.8
 nvm install node
 npm -v
-5.5.1
+5.6.0
 ```
-
-[![asciicast](https://asciinema.org/a/YY1V3Zm1VIOgIBS4kbXAu17z3.png)](https://asciinema.org/a/YY1V3Zm1VIOgIBS4kbXAu17z3)
-
-<script type="text/javascript" src="https://asciinema.org/a/YY1V3Zm1VIOgIBS4kbXAu17z3.js" id="asciicast-YY1V3Zm1VIOgIBS4kbXAu17z3" async></script>
