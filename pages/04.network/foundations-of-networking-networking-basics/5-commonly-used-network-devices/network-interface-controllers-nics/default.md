@@ -18,8 +18,6 @@ restaurant:
 facebookenable: true
 ---
 
-# <a href="/network/foundations-of-networking-networking-basics/5-commonly-used-network-devices" class="nav-button transform"><span></span></a>Network Interface Controllers NICs
-
 ![](NICs.png?cropResize=500,500)   {.center}
 
 ```
