@@ -39,15 +39,7 @@ facebookenable: true
 
 ---
 
-* [Introduction](/linux/centos/centmin-mod-lemp-web-stack-yum-updates-auto-centos-7#introduction)
-	* [Prerequisites](/linux/centos/centmin-mod-lemp-web-stack-yum-updates-auto-centos-7#prerequisites)
-	* [Yum Update](/linux/centos/centmin-mod-lemp-web-stack-yum-updates-auto-centos-7#yum-update)
-* [Centmin Mod LEMP Stack Install on CentOS](/linux/centos/centmin-mod-lemp-web-stack-yum-updates-auto-centos-7#centmin-mod-lemp-stack-install-on-centos)
-	* [Edit color bash](/linux/centos/centmin-mod-lemp-web-stack-yum-updates-auto-centos-7#edit-color-bash)
-	* [Add a Domain Name’s Nginx Vhost Configuration](/linux/centos/centmin-mod-lemp-web-stack-yum-updates-auto-centos-7#add-a-domain-names-nginx-vhost-configuration)
-	* [CENTMIN MOD Geting Started Guide](/linux/centos/centmin-mod-lemp-web-stack-yum-updates-auto-centos-7#centmin-mod-geting-started-guide)
-	* [Auto Updating Centmin Mod Code](/linux/centos/centmin-mod-lemp-web-stack-yum-updates-auto-centos-7#auto-updating-centmin-mod-code)
-	* [Auto Yum - Yum Cron](/linux/centos/centmin-mod-lemp-web-stack-yum-updates-auto-centos-7#auto-yum-yum-cron)
+[TOC]
 
 ----
 
