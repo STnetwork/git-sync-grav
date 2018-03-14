@@ -19,12 +19,6 @@ restaurant:
     priceRange: $
 ---
 
-#  <a href="https://stnetwork.fr/network/foundations-of-networking-ip-addressing/the-basics-of-numbering-systems-in-networking" class="nav-button transform"><span></span></a>Binary Numbering System
-
-
-
----
-
 <div>
 <nav class="breadcrumb is-medium" aria-label="breadcrumbs">
   <ul>
