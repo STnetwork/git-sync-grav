@@ -2,9 +2,6 @@
 title: '3. OSI Model'
 ---
 
-# <a href="/network/foundations-of-networking-networking-basics" class="nav-button transform"><span></span></a>3. OSI Model
-
-
 ## [Introduction to OSI Model](/network/foundations-of-networking-networking-basics/3-osi-model/introduction-to-osi-model)
 ## [Layer 1 - Physical Layer](/network/foundations-of-networking-networking-basics/3-osi-model/layer-1-physical-layer)
 ## [Layer 2 - Data Layer](/network/foundations-of-networking-networking-basics/3-osi-model/layer-2-data-layer)
