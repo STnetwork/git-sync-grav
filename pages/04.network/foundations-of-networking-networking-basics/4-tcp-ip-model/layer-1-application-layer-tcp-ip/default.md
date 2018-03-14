@@ -18,8 +18,6 @@ restaurant:
 facebookenable: true
 ---
 
-# <a href="/network/foundations-of-networking-networking-basics/4-tcp-ip-model" class="nav-button transform"><span></span></a>Layer 1 - Application Layer (TCP/IP)
-
 ![](Application-Layer.png?cropResize=300,300)   {.center}
 
 ```
