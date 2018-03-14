@@ -21,10 +21,6 @@ restaurant:
 facebookenable: true
 ---
 
-# <a href="/network/" class="nav-button transform"><span></span></a>Foundations of Networking - Networking Basics
-
----
-
 <div>
 <nav class="breadcrumb is-medium" aria-label="breadcrumbs">
   <ul>
