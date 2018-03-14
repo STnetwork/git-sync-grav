@@ -3,9 +3,6 @@ title: 'LANs, WLANs and PANs'
 date: '08/08/2017 2:38pm'
 ---
 
-#  <a href="/network/foundations-of-networking-networking-basics/2-network-implementations" class="nav-button transform"><span></span></a>LANs, WLANs and PANs
----
-
 ## LANs
 
 * Limited in size.
