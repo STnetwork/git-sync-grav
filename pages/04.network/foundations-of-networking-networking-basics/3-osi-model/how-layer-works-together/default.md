@@ -18,8 +18,6 @@ restaurant:
 facebookenable: true
 ---
 
-# <a href="/network/foundations-of-networking-networking-basics/3-osi-model" class="nav-button transform"><span></span></a>How Layer works Together
-
 ![](howitworks.png?lightbox=1400,1100&cropResize=800,800)   {.center}
 
 In this first diagram, we see how we start out with data coming from the Operating System or more accurately, coming from applications running on the Operating System. And we see how each layer of the OSI model adds its own unique header. Now, each one of these headers that are added to each player of the OSI model, gives information to the computer on the other end about the data that is being transmitted.
