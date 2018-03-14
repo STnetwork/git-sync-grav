@@ -17,19 +17,7 @@ twig_first: true
 
 ---
 
-* [Introduction](/linux/centos/hexo-cms-plugin-theme-centos-7#introduction)
-	* [Prerequisites](/linux/centos/hexo-cms-plugin-theme-centos-7#prerequisites)
-* [Install Dependencies](/linux/centos/hexo-cms-plugin-theme-centos-7#install-dependencies)
-* [Install Hexo](/linux/centos/hexo-cms-plugin-theme-centos-7#install-hexo)
-* [Initialize your Project](/linux/centos/hexo-cms-plugin-theme-centos-7#initialize-your-project)
-	* [Launch Server](/linux/centos/hexo-cms-plugin-theme-centos-7#launch-server)
-* [Apply Theme](/linux/centos/hexo-cms-plugin-theme-centos-7#apply-theme)
-	* [Edit the main `_config.yml` for apply the new theme](/linux/centos/hexo-cms-plugin-theme-centos-7#edit-the-main-_configyml-for-apply-the-new-theme)
-	* [Configure the theme in another `_config.yml`](/linux/centos/hexo-cms-plugin-theme-centos-7#configure-the-theme-in-another-_configyml)
-* [Apply a Plugin](/linux/centos/hexo-cms-plugin-theme-centos-7#apply-a-plugin)
-    * [Plugin Admin Interface](/linux/centos/hexo-cms-plugin-theme-centos-7#plugin-admin-interface)
-    * [Password protection of the Interface Admin](/linux/centos/hexo-cms-plugin-theme-centos-7#password-protection-of-the-interface-admin)
-* [Clean & Generate Static](/linux/centos/hexo-cms-plugin-theme-centos-7#clean-generate-static)
+[TOC]
 
 ----
 
