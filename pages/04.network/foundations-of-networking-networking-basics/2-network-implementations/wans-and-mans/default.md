@@ -3,9 +3,6 @@ title: 'WANs & MANs'
 date: '08/08/2017 2:38pm'
 ---
 
-#  <a href="/network/foundations-of-networking-networking-basics/2-network-implementations" class="nav-button transform"><span></span></a>WANs & MANs
----
-
 ## WANs
 
 * Computers competing for Network Access
