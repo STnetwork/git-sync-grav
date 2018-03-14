@@ -2,7 +2,6 @@
 title: 'Install DHCP Rôle on Windows Server 2016'
 ---
 
-#  <a href="/windows/windows-server/windows-server-2016/dhcp" class="nav-button transform"><span></span></a>Installing the DHCP Server Role on Windows Server 2016
 ---
 ## Install DHCP 
 

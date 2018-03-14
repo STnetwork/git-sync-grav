@@ -6,10 +6,6 @@ process:
 twig_first: true
 ---
 
-# <a href="/linux/centos" class="nav-button transform"><span></span></a>Hexo CMS on CentOS 7 - Plugin - Theme
-
----
-
 <nav class="breadcrumb is-medium" aria-label="breadcrumbs">
   <ul>
     <li><a href="/"><span class="icon is-small"><i class="fa fa-home"></i></span>Home<span></span></a></li>

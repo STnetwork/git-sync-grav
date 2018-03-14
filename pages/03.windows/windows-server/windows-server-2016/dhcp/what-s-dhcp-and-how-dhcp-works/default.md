@@ -2,7 +2,6 @@
 title: 'What''s DHCP & How DHCP works'
 ---
 
-#  <a href="/windows/windows-server/windows-server-2016/dhcp" class="nav-button transform"><span></span></a>What's DHCP & How it works
 ---
 
 ## What's DHCP ?

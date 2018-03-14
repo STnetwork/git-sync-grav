@@ -6,10 +6,6 @@ process:
 twig_first: true
 ---
 
-# <a href="/linux/centos" class="nav-button transform"><span></span></a>NVM - NPM - NodeJS - CentOS 7
-
----
-
 <nav class="breadcrumb is-medium" aria-label="breadcrumbs">
   <ul>
     <li><a href="/"><span class="icon is-small"><i class="fa fa-home"></i></span>Home<span></span></a></li>
