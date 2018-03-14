@@ -18,8 +18,6 @@ restaurant:
 facebookenable: true
 ---
 
-# <a href="/network/foundations-of-networking-networking-basics/3-osi-model" class="nav-button transform"><span></span></a>Layer 3 - Network Layer
-
 ![](layer-3-osi.png?cropResize=500,500)   {.center}
 
 ```
