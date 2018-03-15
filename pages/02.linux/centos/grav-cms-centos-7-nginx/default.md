@@ -211,11 +211,19 @@ SUCCESS cloned https://github.com/getgrav/grav-plugin-markdown-notices -> /home/
 SUCCESS cloned https://github.com/getgrav/grav-theme-antimatter -> /home/nginx/domains/stnetwork.fr/public/grav/user/themes/antimatter
 ```
 
+```
 cd  /home/nginx/domains/stnetwork.fr/public/grav
+```
 
+## Install Plugin
 
-Install Plugin
-bin/gpm install admin highlight git-sync sync haywire -y
-bin/gpm install highlight
-bin/gpm install git-sync sync
+```
+bin/gpm install admin highlight git-sync sync highlight -y
+```
+
+## Install Theme
+```
+bin/gpm install haywire
+```
+
 
