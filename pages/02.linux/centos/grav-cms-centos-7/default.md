@@ -1,5 +1,5 @@
 ---
-title: 'Grav CMS - CentOS 7'
+title: 'Grav CMS - CentOS 7 - NGINX'
 process:
     markdown: true
     twig: true
@@ -36,3 +36,9 @@ The underlying architecture of Grav is designed to use well-established and best
 * [Symfony Event Dispatcher](http://symfony.com/doc/current/components/event_dispatcher/introduction.html): for plugin event handling
 * [Symfony Console](http://symfony.com/doc/current/components/console/introduction.html): for CLI interface
 * [Gregwar Image Library](https://github.com/Gregwar/Image): for dynamic image manipulation
+
+## Requirements
+
+* CentOS 6 & 7
+* VPS
+* Nginx
