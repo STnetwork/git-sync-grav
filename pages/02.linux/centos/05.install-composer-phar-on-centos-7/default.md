@@ -6,6 +6,25 @@ process:
 twig_first: true
 ---
 
+<nav class="breadcrumb is-medium" aria-label="breadcrumbs">
+  <ul>
+    <li><a href="/"><span class="icon is-small"><i class="fa fa-home"></i></span>Home<span></span></a></li>
+    <li><a href="/linux"><span class="icon is-small"><i class="fa fa-linux"></i></span><span>Linux</span></a></li>
+    <li><a href="/linux/centos"></i></span><span>CentOS</span></a></li>
+    <li><a href="#"></i></span><span>Install Composer.phar on CentOS  7</span></a></li>
+  </ul>
+</nav>
+
+---
+
+[TOC]
+
+----
+
+## Introduction
+
+
+
 ```
 yum -y update
 curl -sS https://getcomposer.org/installer | php
