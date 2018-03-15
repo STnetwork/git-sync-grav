@@ -34,6 +34,6 @@ twig_first: true
 ## [Hexo CMS - Plugin - Theme - CentOS 7](/linux/centos/hexo-cms-plugin-theme-centos-7)
 ## [SoftEther VPN on a CentOS 7 VPS Using Local Bridge + DNSmasq (DHCP) + CSF Firewall](/linux/centos/softether-vpn-on-a-centos-7-vps-using-local-bridge-dnsmasq)
 <!-- ## [Nginx - GIT Deploy & Auto Pull PHP - CentOS 7](/linux-centos/PART-IV.-Nginx-GIT-Deploy-&-Auto-Pull-PHP-Hexo/)  -->
-## [Grav CMS - CentOS 7](/linux/centos/grav-cms-centos-7)
+## [Grav CMS - CentOS 7](/linux/centos/grav-cms-centos-7-nginx)
 
 
