@@ -226,4 +226,180 @@ bin/gpm install admin highlight git-sync sync highlight -y
 bin/gpm install haywire
 ```
 
+## Conf NGINX
+### `stnetwork.fr.conf`
+
+```
+# Centmin Mod Getting Started Guide
+# must read http://centminmod.com/getstarted.html
+
+# redirect from non-www to www 
+# uncomment, save file and restart Nginx to enable
+# if unsure use return 302 before using return 301
+#server {
+#            listen   80;
+#            server_name stnetwork.fr;
+#            return 301 $scheme://www.stnetwork.fr$request_uri;
+#       }
+
+server {
+  
+  server_name stnetwork.fr www.stnetwork.fr;
+
+# ngx_pagespeed & ngx_pagespeed handler
+#include /usr/local/nginx/conf/pagespeed.conf;
+#include /usr/local/nginx/conf/pagespeedhandler.conf;
+#include /usr/local/nginx/conf/pagespeedstatslog.conf;
+
+  #add_header X-Frame-Options SAMEORIGIN;
+  #add_header X-Xss-Protection "1; mode=block" always;
+  #add_header X-Content-Type-Options "nosniff" always;
+  #add_header Referrer-Policy "strict-origin-when-cross-origin";
+
+  # limit_conn limit_per_ip 16;
+  # ssi  on;
+
+  access_log /home/nginx/domains/stnetwork.fr/log/access.log combined buffer=256k flush=5m;
+  error_log /home/nginx/domains/stnetwork.fr/log/error.log;
+
+  include /usr/local/nginx/conf/autoprotect/stnetwork.fr/autoprotect-stnetwork.fr.conf;
+  root /home/nginx/domains/stnetwork.fr/public/grav;
+  # uncomment cloudflare.conf include if using cloudflare for
+  # server and/or vhost site
+  include /usr/local/nginx/conf/cloudflare.conf;
+  include /usr/local/nginx/conf/503include-main.conf;
+
+  # prevent access to ./directories and files
+  #location ~ (?:^|/)\. {
+  # deny all;
+  #}
+
+  location / {
+  include /usr/local/nginx/conf/503include-only.conf;
+
+# block common exploits, sql injections etc
+#include /usr/local/nginx/conf/block.conf;
+
+  # Enables directory listings when index file not found
+  #autoindex  on;
+
+  # Shows file listing times as local time
+  #autoindex_localtime on;
+
+  # Wordpress Permalinks example
+  #try_files $uri $uri/ /index.php?q=$uri&$args;
+           try_files $uri $uri/ /index.php?$query_string;
+  }
+
+  include /usr/local/nginx/conf/pre-staticfiles-local-stnetwork.fr.conf;
+  include /usr/local/nginx/conf/pre-staticfiles-global.conf;
+  include /usr/local/nginx/conf/staticfiles.conf;
+  include /usr/local/nginx/conf/php.conf;
+  
+  include /usr/local/nginx/conf/drop.conf;
+  #include /usr/local/nginx/conf/errorpage.conf;
+  include /usr/local/nginx/conf/vts_server.conf;
+}
+```
+
+### `stnetwork.fr.ssl.conf`
+
+```
+# Centmin Mod Getting Started Guide
+# must read http://centminmod.com/getstarted.html
+# For HTTP/2 SSL Setup
+# read http://centminmod.com/nginx_configure_https_ssl_spdy.html
+
+# redirect from www to non-www  forced SSL
+# uncomment, save file and restart Nginx to enable
+# if unsure use return 302 before using return 301
+# server {
+#       listen   80;
+#       server_name stnetwork.fr www.stnetwork.fr;
+#       return 302 https://$server_name$request_uri;
+# }
+
+server {
+  listen 443 ssl http2;
+  server_name stnetwork.fr www.stnetwork.fr;
+
+  ssl_dhparam /usr/local/nginx/conf/ssl/stnetwork.fr/dhparam.pem;
+  ssl_certificate      /usr/local/nginx/conf/ssl/stnetwork.fr/stnetwork.fr.crt;
+  ssl_certificate_key  /usr/local/nginx/conf/ssl/stnetwork.fr/stnetwork.fr.key;
+  include /usr/local/nginx/conf/ssl_include.conf;
+
+  # cloudflare authenticated origin pull cert community.centminmod.com/threads/13847/
+  #ssl_client_certificate /usr/local/nginx/conf/ssl/cloudflare/stnetwork.fr/origin.crt;
+  #ssl_verify_client on;
+  http2_max_field_size 16k;
+  http2_max_header_size 32k;
+  # mozilla recommended
+  ssl_ciphers ECDHE-ECDSA-CHACHA20-POLY1305:ECDHE-RSA-CHACHA20-POLY1305:ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-RSA-AES128-GCM-SHA256:ECDHE-ECDSA-AES256-GCM-SHA384:ECDHE-RSA-AES256-GCM-SHA384:DHE-RSA-AES128-GCM-SHA256:DHE-RSA-AES256-GCM-SHA384:ECDHE-ECDSA-AES128-SHA256:ECDHE-RSA-AES128-SHA256:ECDHE-ECDSA-AES128-SHA:ECDHE-RSA-AES256-SHA384:ECDHE-RSA-AES128-SHA:ECDHE-ECDSA-AES256-SHA384:ECDHE-ECDSA-AES256-SHA:ECDHE-RSA-AES256-SHA:DHE-RSA-AES128-SHA256:DHE-RSA-AES128-SHA:DHE-RSA-AES256-SHA256:DHE-RSA-AES256-SHA:ECDHE-ECDSA-DES-CBC3-SHA:ECDHE-RSA-DES-CBC3-SHA:EDH-RSA-DES-CBC3-SHA:AES128-GCM-SHA256:AES256-GCM-SHA384:AES128-SHA256:AES256-SHA256:AES128-SHA:AES256-SHA:DES-CBC3-SHA:!DSS;
+  ssl_prefer_server_ciphers   on;
+  #add_header Alternate-Protocol  443:npn-spdy/3;
+
+  # before enabling HSTS line below read centminmod.com/nginx_domain_dns_setup.html#hsts
+  #add_header Strict-Transport-Security "max-age=31536000; includeSubdomains;";
+  #add_header X-Frame-Options SAMEORIGIN;
+  #add_header X-Xss-Protection "1; mode=block" always;
+  #add_header X-Content-Type-Options "nosniff" always;
+  #add_header Referrer-Policy "strict-origin-when-cross-origin";
+  #spdy_headers_comp 5;
+  ssl_buffer_size 1369;
+  ssl_session_tickets on;
+  
+  # enable ocsp stapling
+  #resolver 8.8.8.8 8.8.4.4 valid=10m;
+  #resolver_timeout 10s;
+  #ssl_stapling on;
+  #ssl_stapling_verify on;
+  #ssl_trusted_certificate /usr/local/nginx/conf/ssl/stnetwork.fr/stnetwork.fr-trusted.crt;
+
+# ngx_pagespeed & ngx_pagespeed handler
+#include /usr/local/nginx/conf/pagespeed.conf;
+#include /usr/local/nginx/conf/pagespeedhandler.conf;
+#include /usr/local/nginx/conf/pagespeedstatslog.conf;
+
+  # limit_conn limit_per_ip 16;
+  # ssi  on;
+
+  access_log /home/nginx/domains/stnetwork.fr/log/access.log combined buffer=256k flush=5m;
+  error_log /home/nginx/domains/stnetwork.fr/log/error.log;
+
+  include /usr/local/nginx/conf/autoprotect/stnetwork.fr/autoprotect-stnetwork.fr.conf;
+  root /home/nginx/domains/stnetwork.fr/public/grav;
+  # uncomment cloudflare.conf include if using cloudflare for
+  # server and/or vhost site
+  include /usr/local/nginx/conf/cloudflare.conf;
+  include /usr/local/nginx/conf/503include-main.conf;
+
+  location / {
+  include /usr/local/nginx/conf/503include-only.conf;
+
+# block common exploits, sql injections etc
+#include /usr/local/nginx/conf/block.conf;
+
+  # Enables directory listings when index file not found
+  #autoindex  on;
+
+  # Shows file listing times as local time
+  #autoindex_localtime on;
+
+  # Wordpress Permalinks example
+  #try_files $uri $uri/ /index.php?q=$uri&$args;
+          try_files $uri $uri/ /index.php?$query_string;
+  }
+
+  include /usr/local/nginx/conf/pre-staticfiles-local-stnetwork.fr.conf;
+  include /usr/local/nginx/conf/pre-staticfiles-global.conf;
+  include /usr/local/nginx/conf/staticfiles.conf;
+  include /usr/local/nginx/conf/php.conf;
+  
+  include /usr/local/nginx/conf/drop.conf;
+  #include /usr/local/nginx/conf/errorpage.conf;
+  include /usr/local/nginx/conf/vts_server.conf;
+}
+
+```
+
 
