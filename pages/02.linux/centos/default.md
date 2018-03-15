@@ -36,3 +36,4 @@ twig_first: true
 <!-- ## [Nginx - GIT Deploy & Auto Pull PHP - CentOS 7](/linux-centos/PART-IV.-Nginx-GIT-Deploy-&-Auto-Pull-PHP-Hexo/)  -->
 ## [Grav CMS - CentOS 7 - NGINX](/linux/centos/grav-cms-centos-7-nginx)
 ## [Install Composer.phar on CentOS 7](/linux/centos/install-composer-phar-on-centos-7)
+## [Install YARN on CentOS 7](/linux/centos/install-composer-phar-on-centos)
