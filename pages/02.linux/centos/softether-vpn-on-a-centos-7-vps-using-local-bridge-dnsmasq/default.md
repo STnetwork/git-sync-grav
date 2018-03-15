@@ -1,5 +1,6 @@
 ---
 title: 'SoftEther VPN on a CentOS 7 VPS Using Local Bridge + DNSmasq (DHCP) + CSF'
+media_order: '0.png,1.png,2.png,3.png,4.png,5.png,6.png,7.png,8.png,9.png,10.png,11.png,12.png,13.png,14.png,15.png,16.png,17.png,18.png,19.png,20.png,21.png,22.png,23.png,24.png,25.png,26.png,27.png'
 date: '01/08/2018 2:38pm'
 googletitle: 'SoftEther VPN on a CentOS 7 VPS Using Local Bridge + DNSmasq (DHCP) + CSF Firewall'
 googledesc: 'Setup Guide for SoftEther VPN Server on CentOS 7, SecureNAT of SoftEther VPN Server which includes DHCP will be disabled, DNSmasq with its DHCP will be used instead. A guide for Firewall CSF will also be provided to enable NAT in the `/etc/csf/csfpre.sh`, and some rules to allow access on the Internet with different protocols (OpenVPN & SoftEther Client).'
@@ -201,6 +202,7 @@ Fill the different informations and leave blank the password, `Connect` to it, t
 
 In our case, the purpose is to have a `Remote Access VPN Server`, so check it, `Next` and confirm the message box that will appears :
 
+![](27.png)
 ![](6.png)
 ![](7.png)
 
