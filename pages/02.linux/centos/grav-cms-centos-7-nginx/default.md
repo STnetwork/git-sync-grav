@@ -43,7 +43,7 @@ The underlying architecture of Grav is designed to use well-established and best
 * VPS
 * Nginx
 * PHP 5.5.9 or higher. Check the [required modules list](https://learn.getgrav.org/basics/requirements#php-requirements)
-* Composer (tutorial here)
+* Composer ([tutorial here](/linux/centos/install-composer-phar-on-centos-7))
 
 ## Install With Composer
 
