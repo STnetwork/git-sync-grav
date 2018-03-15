@@ -42,3 +42,4 @@ The underlying architecture of Grav is designed to use well-established and best
 * CentOS 6 & 7
 * VPS
 * Nginx
+* PHP 5.5.9 or higher. Check the [required modules list](https://learn.getgrav.org/basics/requirements#php-requirements)
