@@ -9,7 +9,7 @@ title: 'Install DHCP Rôle on Windows Server 2016'
 
 - We must to go in **"Control Panel\All Control Panel Items\Network and Sharing Center"** and click on **Ethernet0** Connection :
 
-![](Network1.png?lightbox=600,400)
+![](Network1.png?lightbox)
 
 ---
 - Then click on **Properties** :
