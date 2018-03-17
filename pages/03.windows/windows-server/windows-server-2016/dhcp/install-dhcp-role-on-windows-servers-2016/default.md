@@ -9,17 +9,17 @@ title: 'Install DHCP Rôle on Windows Server 2016'
 
 - We must to go in **"Control Panel\All Control Panel Items\Network and Sharing Center"** and click on **Ethernet0** Connection :
 
-![](Network1.png)
+![](Network1.png?lightbox=800,600)
 
 ---
 - Then click on **Properties** :
 
-![](Network2.png)
+![](Network2.png?lightbox=800,600)
 
 ---
 - Come down in **IPv4 option** and click **Properties** again  :
 
-![](Network3.png?lightbox=800,600&resize=600,400)
+![](Network3.png?lightbox=800,600)
 
 ---
 - We already have a Static IP set up on this particular server, because that's the one our Network Administrator told us to use. When you go to set the Static IP for a DHCP server, it's important to talk with the Network Administrator first and find out what they would have we use inside our particular Network Environment.
